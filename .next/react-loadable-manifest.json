@@ -1,10 +1,14 @@
 {
-  "_app.tsx -> ../components/WalletConnection/WalletConnectionProvider": {
-    "id": 67354,
+  "../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
+    "id": "./node_modules/next/dist/client/dev/noop.js",
     "files": [
-      "static/chunks/526-4962c582ff374121cb09.js",
-      "static/chunks/585.98c656a8f7cf035a0927.js",
-      "static/chunks/927.ccd093999962fd2d96c5.js"
+      "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
+    ]
+  },
+  "_app.tsx -> ../components/WalletConnection/WalletConnectionProvider": {
+    "id": "./components/WalletConnection/WalletConnectionProvider.tsx",
+    "files": [
+      "static/chunks/components_WalletConnection_WalletConnectionProvider_tsx.js"
     ]
   }
 }
