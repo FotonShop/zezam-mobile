@@ -67,12 +67,12 @@ export const IsLive = ({ candyMachine, whiteList }: PhaseHeaderProps) => {
         <Text color={"#2c2c2c"} fontSize={16}>
           WHITELISTED!
         </Text>
-      ) : Date.now() >= 1646071200000 ? (
+      ) : Date.now() >= 1646676000000 ? (
         <Text color={"#2c2c2c"} fontSize={16}>
           MINT IS LIVE!
         </Text>
       ) : (
-        <Countdown renderer={renderer} date={1646071200000}></Countdown>
+        <Countdown renderer={renderer} date={1646676000000}></Countdown>
       )}
     </>
   );
